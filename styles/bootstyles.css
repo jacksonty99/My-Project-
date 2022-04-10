@@ -1,0 +1,150 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color: rgb(37, 39, 48);
+    background-color: lightgray;
+}
+
+overwrite-style-1{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+a:visited{
+    color: purple;
+}
+
+.resumelisthead {
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.homebg{
+    background-image: url(https://previews.123rf.com/images/kentoh/kentoh1711/kentoh171100202/90414664-r%C3%A9p%C3%A9tition-avec-le-fond-pixel-art-abstrait.jpg);
+    background-size: cover;
+}
+
+.homebg2{
+    background-image: url(https://www.shutterstock.com/image-illustration/blue-bright-colour-background-336497255);
+    background-size: cover;
+}
+
+.homebg3{
+    background-image: url();
+    background-size: cover;
+}
+
+.box1 {
+    border-width: 3px;
+    border-style: dotted;
+    border-color: aqua;
+}
+
+body{
+    /*background-color: #555555;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.common {
+    /*background-color: #cccccc;
+    border: solid 2px white ;*/
+    position: absolute;
+}
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+}
+
+.leftmenu{
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px #555555;
+}
+
+.mainbody{
+    top: 114px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+    padding-right: 5px;
+
+}
+
+.rightmenu{
+    top: 114px;
+    bottom: 64px;
+    right: 5px;
+    width: 100px;
+    border-left: solid 1px #555555;
+    padding-left: 5px;
+
+}
+
+.footer{
+    bottom: 5px;
+    height: 10px;
+    left: 5px;
+    right: 5px;
+    font-size: 8px;
+    text-align: center;
+    position: fixed;
+
+}
+
+.subheader{
+    float: right;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("img_girl.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 1000px;
+  }
